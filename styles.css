@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title{
+    height: 60vmin;
+}
+
+h1{
+    font-size: 10vw;
+}
+
+p{
+    font-size: 3vw;
+}
+
+h2{
+    font-size: 4vw;
+}
+
+#Coordinacion{
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#Descripcion{
+    text-align: justify;
+}
+
+@media (min-width: 576px) {
+    h1{
+        font-size: 8vw;
+    }
+
+    p{
+        font-size: 2vw;
+    }
+
+    #title{
+        height: 80vmin;
+    }
+}
